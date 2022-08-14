@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    /*background-image: linear-gradient(rgb(3 59 117 / 40%),rgb(78 45 156 / 40%)), url(bi3.jpg);*/
+    background-color: #932424;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    
+}
+h1 {
+    margin: 10px 0 10px 0;
+    color: antiquewhite;
+    font-family: sans-serif;
+}
+.form_box{
+    width: 380px;
+    height: 500px;
+    position: relative;
+    margin: 2% auto;
+    background: rgb(111 78 117 / 2%);
+    padding: 5px;
+    border: 1px dotted #f195b7;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.button_box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle_btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #d0deb6,#ef9e6f);
+    border-radius: 30px;
+    transition: .5s;
+}
+.icon{
+    margin: 20px auto;
+    text-align: center;
+}
+.icon i{
+    margin: 0 10px;
+    font-size: 30px;
+    color: #d29f96;
+}
+.input_group{
+    margin-bottom: 20px;
+    top: 180px;
+    height: 340px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input_field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #925151;
+    outline: none;
+    color: white;
+    background: transparent;
+}
+.submit_btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    background: linear-gradient(to right, #d0deb6,#ef9e6f);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+
+}
+.d-flex button a{
+    color: cadetblue;
+}
+.d-flex button a:hover{
+    color: white;
+}
+
+#login{
+    left: 50px;
+}
+#register{
+    left: 450px;
+}
+
+.navbar-brand b{
+    color: #c98677;
+}
+
+.homepage{
+    margin-top: -44.5px;
+    width: 100%;
+    height: 650px;
+    background-image:url("bi2.jpeg");
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+.homepage_box{
+    width: 400px;
+    height: 450px;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 45px auto auto 60px;
+    color: #fbe8e8;
+}
+.homepage_box p{
+    padding-top: 125px;
+}
+.resources{
+    background-color:#fbe8e8;
+}
+.resources .container {
+    margin-top:20px;
+    width: 100%;
+    
+    height: 500px;
+    
+}
+ .resources .container .card{
+    float: left;
+    margin: 70px 30px 0px 53px;
+    border: 1px solid #9c9a9c;
+    
+}

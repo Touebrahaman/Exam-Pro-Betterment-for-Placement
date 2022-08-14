@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>login</title>
+</head>
+<body>
+    <div class="main">
+        <center><h1>Exam Pro : Betterment for Placement</h1></center>
+        <hr>
+        <div class="form_box">
+            <div class="button_box">
+                <div id="btn"></div>
+                <button type="button" class="toggle_btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle_btn" onclick="register()">Register</button>
+            </div>
+          <!-- <div class="icon">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-google-plus-square"></i></a>
+            </div>
+          -->
+            <form id="login" action="api/login.php" method="POST" class="input_group">
+                <input type="text" name="l_email" class="input_field" placeholder="Enter email address">
+                <input type="password" name="l_password" class="input_field" placeholder="Enter Password">
+                <button type="submit" name="l_submit" class="submit_btn">Log In</button>
+            </form>
+            <form id="register" action="api/registration.php" method="POST" class="input_group">
+                <input type="text" name="r_name" class="input_field" placeholder="Username">
+                <input type="text" name="r_mobile" class="input_field" placeholder="Mobile Number">
+                <input type="email" name="r_email" class="input_field" placeholder="Email Id">
+                <input type="password" name="r_password" class="input_field" placeholder="Enter Password">
+                <input type="password" name="r_cpassword" class="input_field" placeholder="Confirm Password">
+                <button type="submit" name="r_submit" class="submit_btn">Register</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        var x=document.getElementById("login");
+        var y=document.getElementById("register");
+        var z=document.getElementById("btn");
+
+        function register(){
+            x.style.left="-400px"
+            y.style.left="50px"
+            z.style.left="110px"
+        }
+        function login(){
+            x.style.left="50px"
+            y.style.left="450px"
+            z.style.left="0px"
+        }
+    </script>
+</body>
+</html>

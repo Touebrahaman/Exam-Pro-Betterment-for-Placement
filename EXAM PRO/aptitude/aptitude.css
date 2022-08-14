@@ -1,0 +1,60 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: turquoise;
+}
+h2{
+    margin
+}
+.quant_leftbox{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+.quant_rightbox{
+    width: 50%;
+    height: auto;
+    float: right;
+    
+}
+button.btn.btn-success a {
+    color: #dfcbbf;
+    text-decoration: none;
+}
+.quant_leftbox p {
+    color: #462bbe;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    font-size: 19px;
+    text-align: justify;
+    font-family: sans-serif;
+}
+.card {
+    width: 41%;
+    margin-left: 40px;
+    margin-top: 15px;
+    float: left;
+    align-items: center;
+}
+
+.feedback_box{
+    width: 500px;
+    height: 500px;
+    background-color: #dbebed;
+    margin: 10px 0 10px 300px;
+    border: 1px solid black;
+    border-radius: 3px;
+
+}
+input{
+    width: 49%;
+    margin: 5px 0 9px 5px;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+    outline: none;
+    background: transparent;
+}
+span{
+    margin: 2px 1px 1px 4px;
+}
